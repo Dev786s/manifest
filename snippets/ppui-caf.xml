@@ -23,7 +23,7 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="ppui-caf" />
 
   <!-- Hardware repos - HALS -->
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="ppui-caf">
+  <project path="hardware/qcom-caf/common" name="yaap/hardware_qcom-caf_common" remote="github" revision="twelve" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, we override os_pickup.mk -->
@@ -55,21 +55,21 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" />
-  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
-  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="pixel" />
-  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/display" name="hardware_qcom-caf_msm8996_display" remote="pixel" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
-  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="pixel" />
-  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/media" name="hardware_qcom-caf_msm8996_media" remote="pixel" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="pixel" />
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="pixel" />
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_sm8350_audio" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_sm8350_media" remote="pixel" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="yaap/hardware_qcom-caf_msm8996_audio" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/audio" name="yaap/hardware_qcom-caf_msm8996_audio" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8996/display" name="yaap/hardware_qcom-caf_msm8996_display" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/display" name="yaap/hardware_qcom-caf_msm8996_display" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8996/media" name="yaap/hardware_qcom-caf_msm8996_media" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/media" name="yaap/hardware_qcom-caf_msm8996_media" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="yaap/hardware_qcom-caf_msm8998_audio" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8998/display" name="yaap/hardware_qcom-caf_msm8998_display" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8998/media" name="yaap/hardware_qcom-caf_msm8998_media" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="yaap/hardware_qcom-caf_sm8150_audio" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/sm8150/display" name="yaap/hardware_qcom-caf_sm8150_display" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/sm8150/media" name="yaap/hardware_qcom-caf_sm8150_media" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="yaap/hardware_qcom-caf_sm8350_audio" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/sm8350/display" name="yaap/hardware_qcom-caf_sm8350_display" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/sm8350/media" name="yaap/hardware_qcom-caf_sm8350_media" remote="github" revision="twelve" />
 
   <!-- Vendor repos - NXP -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_opensource_interfaces_nfc" remote="ppui-caf" />
